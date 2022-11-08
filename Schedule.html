@@ -11,7 +11,9 @@
 <body>
     <div class="upperPart">
     <h1 id="mainTitle"> Schedule Maker</h1>
-    <p id="mainP">Click at any place to add event</p>
+    <p id="mainP" style="color: rgb(13, 151, 0);">Left Click at any place to add event</p>
+    <p id="mainP" style="color: red;">Right Click at any place to delete event</p>
+    <p id="mainP" style="color:rgb(252, 252, 45);">Scroll at any place to use last event color</p>
     </div>
     <div class="mainSection">
         <table class="mainTable">
@@ -27,7 +29,7 @@
             </thead>
             <tr>
                 <th>7:00 AM</th>
-                <td class="cells" onclick="x()"><input class="inp"></td>
+                <td class="cells" onscroll="x()" onclick="x()"><input class="inp"></td>
                 <td class="cells" onclick="x()"><input class="inp"></td>
                 <td class="cells" onclick="x()"><input class="inp"></td>
                 <td class="cells" onclick="x()"><input class="inp"></td>
